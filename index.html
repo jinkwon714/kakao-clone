@@ -9,6 +9,7 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
@@ -44,21 +45,28 @@
       <ul class="chats">
         <li class="chats__chat chat">
           <a href="chat.html">
-            <div class="class chat__colum">
-              <img class="chat__avatar g-avatar" src="images/avatar.jpg" />
-              <div class="class chat__content">
-                <span class="class chat__username">
-                  Lynn
-                </span>
-                <span class="class chat__preview">
-                  Going home
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <img
+                  src="images/avatar4.jpeg"
+                  class="m-avatar friend__avatar"
+                />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    My Lady
+                  </span>
+                  <span class="friend__bottom-text">
+                    I miss you too!
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">
+                  March 8
                 </span>
               </div>
             </div>
           </a>
-          <div class="class chat__colum">
-            <span clas="chat__timestamp">Yesterday</span>
-          </div>
         </li>
       </ul>
     </main>
@@ -71,6 +79,9 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">
+              8
+            </div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
@@ -86,5 +97,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small</span>
+    </div>
   </body>
 </html>
